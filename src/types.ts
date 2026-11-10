@@ -84,6 +84,20 @@ export interface EducationItem {
   achievements: string[]
 }
 
+export interface CertificateItem {
+  id: string
+  title: string
+  issuer: string
+  description: string
+  /** Certificate number printed on the document (optional). */
+  credentialId?: string
+  /** Preview picture in /public (optional). */
+  image?: string
+  /** PDF in /public. Leave empty to show "on request" instead of a link. */
+  fileUrl?: string
+  icon: IconName
+}
+
 export interface CourseItem {
   title: string
   provider: string

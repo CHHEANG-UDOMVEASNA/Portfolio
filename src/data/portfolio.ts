@@ -18,6 +18,7 @@
 import type {
   AboutHighlight,
   Contact,
+  CertificateItem,
   CourseItem,
   EducationItem,
   ExperienceItem,
@@ -70,6 +71,7 @@ export const navItems: NavItem[] = [
   { id: 'projects', label: 'Projects' },
   { id: 'experience', label: 'Experience' },
   { id: 'education', label: 'Education' },
+  { id: 'certificates', label: 'Certificates' },
   { id: 'contact', label: 'Contact' },
 ]
 
@@ -347,6 +349,49 @@ export const education = {
     { title: 'Above & Beyond Python Course', provider: 'Short course', period: '7 weeks' },
     { title: 'Full Stack Development', provider: 'Udemy (online)', period: 'In progress' },
   ] as CourseItem[],
+}
+
+/* -------------------------------------------------------------------------- */
+/*  Certificates                                                               */
+/*  PDFs and previews live in public/certificates/                             */
+/* -------------------------------------------------------------------------- */
+export const certificates = {
+  eyebrow: '// certificates',
+  title: 'Certificates',
+  lead: 'Courses and training I completed, with the official certificates.',
+  items: [
+    {
+      id: 'telecom-cambodia-internship',
+      title: 'Internship Completion Certificate',
+      issuer: 'Telecom Cambodia (TC)',
+      description:
+        'Official letter confirming practical training at the Strategy and Business Development department of Telecom Cambodia.',
+      // The original letter shows personal details, so it is not published here.
+      // To show it, add the file to public/certificates/ and set fileUrl.
+      fileUrl: '',
+      icon: 'briefcase',
+    },
+    {
+      id: 'python-fundamentals',
+      title: 'Python Fundamentals - 7-Week Online Course',
+      issuer: 'Above + Beyond, with the Institute of Technology of Cambodia',
+      description: 'Course completion certificate for a 7-week online course in Python fundamentals.',
+      credentialId: 'ANBPTMD12024044',
+      image: '/certificates/python-fundamentals.jpg',
+      fileUrl: '/certificates/python-fundamentals-above-beyond.pdf',
+      icon: 'code',
+    },
+    {
+      id: 'python-basic',
+      title: 'Basic Python - 3-Week Fast-Track Online Course',
+      issuer: 'Above + Beyond',
+      description: 'Course completion certificate for a 3-week fast-track online course in basic Python.',
+      credentialId: 'ANBFT20240581',
+      image: '/certificates/python-basic.jpg',
+      fileUrl: '/certificates/python-basic-above-beyond.pdf',
+      icon: 'code',
+    },
+  ] as CertificateItem[],
 }
 
 /* -------------------------------------------------------------------------- */
