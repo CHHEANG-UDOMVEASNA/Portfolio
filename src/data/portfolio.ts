@@ -43,7 +43,7 @@ export const person: Person = {
   summary:
     'I turn data into decisions - from statistical analysis and machine learning to Power BI dashboards that people actually use.',
   availability: 'Open to internship opportunities',
-  profileImage: '/images/profile-dark.jpg', // dark-background version. Original photo: '/images/profile.jpg'
+  profileImage: '/images/profile.jpg', // your original photo, not edited
   cvUrl: '/CHHEANG-Udomveasna-CV.pdf',
   cvFileName: 'CHHEANG-Udomveasna-CV.pdf',
 }
