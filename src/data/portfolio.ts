@@ -56,7 +56,7 @@ export const contact: Contact = {
   phone: '+855-96-671-9476', // from the latest CV (096 671 9476)
   location: 'Phnom Penh, Cambodia',
   github: 'https://github.com/CHHEANG-UDOMVEASNA',
-  linkedin: '', // e.g. 'https://www.linkedin.com/in/your-name/'
+  linkedin: 'https://www.linkedin.com/in/udomveasna-chheang-671aa3371/',
   telegram: '', // e.g. 'https://t.me/your_username'
   facebook: '', // e.g. 'https://www.facebook.com/your.name'
 }

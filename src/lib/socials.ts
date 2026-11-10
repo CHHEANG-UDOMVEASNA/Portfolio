@@ -15,9 +15,6 @@ export interface SocialLink {
 export function getSocialLinks(): SocialLink[] {
   const all: SocialLink[] = [
     { id: 'github', label: 'GitHub', href: contact.github, icon: GithubIcon, external: true },
-    { id: 'linkedin', label: 'LinkedIn', href: contact.linkedin, icon: LinkedinIcon, external: true },
-    { id: 'telegram', label: 'Telegram', href: contact.telegram, icon: TelegramIcon, external: true },
-    { id: 'facebook', label: 'Facebook', href: contact.facebook, icon: FacebookIcon, external: true },
     {
       id: 'email',
       label: 'Email',
@@ -25,6 +22,9 @@ export function getSocialLinks(): SocialLink[] {
       icon: Mail,
       external: false,
     },
+    { id: 'linkedin', label: 'LinkedIn', href: contact.linkedin, icon: LinkedinIcon, external: true },
+    { id: 'telegram', label: 'Telegram', href: contact.telegram, icon: TelegramIcon, external: true },
+    { id: 'facebook', label: 'Facebook', href: contact.facebook, icon: FacebookIcon, external: true },
   ]
   return all.filter((s) => s.href.trim() !== '')
 }
