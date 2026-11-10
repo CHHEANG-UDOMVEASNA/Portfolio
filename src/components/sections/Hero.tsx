@@ -100,7 +100,7 @@ export function Hero() {
 
         {/* ----------------------------- Visual column ---------------------------- */}
         <Reveal delay={0.15} className="relative">
-          <div className="shadow-card mx-auto mb-6 w-full max-w-[14rem] overflow-hidden rounded-2xl border border-slate-200/80 sm:max-w-[18rem] dark:border-white/10">
+          <div className="shadow-card mx-auto mb-6 w-full max-w-[12.8rem] overflow-hidden rounded-2xl border border-slate-200/80 sm:max-w-[15.4rem] dark:border-white/10">
             <ProfileImage className="aspect-[4/5] w-full" />
             <div className="flex items-center justify-between border-t border-slate-200/80 bg-slate-50 px-4 py-2 dark:border-white/10 dark:bg-ink-900">
               <span className="font-mono text-xs font-semibold text-lime-600 dark:text-lime-400">

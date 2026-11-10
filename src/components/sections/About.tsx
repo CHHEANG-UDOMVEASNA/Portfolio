@@ -49,7 +49,7 @@ export function About() {
                     className="absolute -inset-1.5 rounded-full border border-dashed border-lime-500/40"
                   />
                   <span className="shadow-glow block h-32 w-32 shrink-0 overflow-hidden rounded-full bg-slate-100 ring-4 ring-lime-500/30 transition-transform duration-300 hover:scale-105 dark:bg-ink-800">
-                    <ProfileImage className="h-full w-full origin-[50%_22%] scale-[1.45] object-[50%_8%]" initialsClassName="text-3xl" />
+                    <ProfileImage className="h-full w-full" initialsClassName="text-3xl" />
                   </span>
                   <span
                     aria-hidden="true"

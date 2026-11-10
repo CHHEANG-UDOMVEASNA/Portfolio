@@ -216,6 +216,7 @@ export const projects = {
   items: [
     {
       id: 'sales-churn-dashboard',
+      image: '/images/projects/sales-churn-dashboard.jpg',
       title: 'Sales Performance & Churn Analytics Dashboard',
       description:
         'Six-page Power BI report built on 40,330 subscription records and 362,792 invoices, with a star schema and 54 DAX measures for churn, MRR, ARPU and receivables. Published with scheduled refresh and accepted by the Director General of Telecom Cambodia.',
@@ -226,6 +227,7 @@ export const projects = {
     },
     {
       id: 'traffic-analytics-dashboard',
+      image: '/images/projects/traffic-analytics-dashboard.jpg',
       title: 'Traffic Analytics Dashboard & Automated ETL',
       description:
         'Five-page Power BI dashboard for Transit and VoIP traffic. A nightly Bash script pulls data from MySQL, uploads it with rclone to OneDrive, and Power BI refreshes at 09:00 - replacing manual monthly reports with daily updates.',
@@ -236,6 +238,7 @@ export const projects = {
     },
     {
       id: 'face-attendance-system',
+      image: '/images/projects/face-attendance-system.jpg',
       title: 'Intelligent Face Attendance System',
       description:
         'Research project combining YOLO11 face detection and ArcFace recognition with schedule-aware validation. Attendance is saved only for enrolled students during an active class. Tested on 55 images of 11 students: 100% detection and 96% correct authorization.',
@@ -246,6 +249,7 @@ export const projects = {
     },
     {
       id: 'khmer-english-chatbot',
+      image: '/images/projects/khmer-english-chatbot.jpg',
       title: 'Bilingual Chatbot (Khmer - English)',
       description:
         'AI chatbot that answers educational questions in Khmer and English using Retrieval-Augmented Generation. Built on Grade 12 Khmer textbook data, with GPT-4o and a vector database to give answers grounded in the textbooks and fewer hallucinations.',

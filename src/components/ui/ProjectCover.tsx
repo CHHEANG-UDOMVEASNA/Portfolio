@@ -35,7 +35,7 @@ export function ProjectCover({ project }: { project: Project }) {
       <div className="relative aspect-[16/9] w-full overflow-hidden">
         <img
           src={project.image}
-          alt={`${project.title} screenshot`}
+          alt={`${project.title} - cover illustration`}
           loading="lazy"
           decoding="async"
           width={1280}
